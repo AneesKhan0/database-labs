@@ -130,3 +130,4 @@ SELECT author, category, COUNT(*) AS count
 FROM books_read
 GROUP BY author, category
 HAVING COUNT(*) > 1;
+
